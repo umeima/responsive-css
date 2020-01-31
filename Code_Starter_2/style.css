@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color:hsl(204, 43%, 93%) ;
+font-family: 'Karla', sans-serif;
+}
+section{
+    /* margin:  4rem 2rem; */
+    display: grid;
+    width: 45%;
+    margin: auto;
+    padding-top: 10%;
+}
+.titre1{
+font-size:28px;
+font-weight: 550px;
+padding: 2rem 2rem 0rem;
+color:  hsl(179, 62%, 43%);
+}
+.soustitre{
+font-size: 21PX;
+font-weight: 400PX;
+color: hsl(71, 73%, 54%);
+padding: 1rem 2rem;
+}
+.partie1 p {
+font-size: 19PX;
+font-weight: 400PX;
+color:  hsl(218, 22%, 67%);
+padding: 0rem  2rem 1rem;
+}
+.partie1{
+background-color: white;
+}
+.partie2{
+background-color:hsl(179, 62%, 43%);
+}
+.titre2{
+font-size: 24px;
+font-weight: 550px;
+padding: 1rem 2rem 0rem;
+color: white;
+}
+span{
+font-size:40px;
+color: white;
+
+}
+.uma{
+color: #96dbda;
+padding: 0rem 2rem;
+}
+.ouma{
+color:white;
+padding: 0rem 2rem 1rem;
+}
+button{
+height: 40px;
+width: 70%;
+background-color:  hsl(71, 73%, 54%);
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+color: white;
+border: none;
+position: relative;
+right: -15%; 
+}
+.boutton{
+    padding: 2rem 0rem ;
+}
+.partie3{
+background-color: hsl(179, 53%, 56%);
+}
+.titre3{
+    font-size: 24px;
+    font-weight: 550px;
+    padding:1rem 2rem 0rem;
+    color: white;
+}
+.partie3 p {
+font-size: 15px;
+font-weight: 400px;
+color: #96dbda;
+padding: 1rem 0rem 1rem  ;
+}
+@media screen and  (min-width:1440px){
+   .section{
+       grid-template-rows: 1fr 1fr;
+     padding: 10rem 12rem 0rem;
+   }
+   .partie1{
+       grid-column: 1/3;
+   }
+
+}
+ 
